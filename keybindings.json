@@ -1,0 +1,53 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+    {
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "unknown",
+        "command": "-workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+oem_3",
+        "command": "editor.action.blockComment",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+oem_2",
+        "command": "-editor.action.blockComment",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+oem_3",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+oem_3",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "alt+s",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+z",
+        "command": "editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+oem_4",
+        "command": "-editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "f12",
+        "command": "workbench.action.toggleDevTools"
+    }
+]
