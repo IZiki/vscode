@@ -19,7 +19,7 @@
         "when": "editorFocus"
     },
     {
-        "key": "shift+oem_3",
+        "key": "alt+oem_3",
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {

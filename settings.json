@@ -4,5 +4,5 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "git.enableSmartCommit": true,
     "files.autoSave": "afterDelay",
-    "editor.fontSize": 16
+    "editor.fontSize": 18
 }

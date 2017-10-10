@@ -1,0 +1,48 @@
+{
+
+	// Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"JSFunction": {
+		"prefix": "fn",
+		"body": [
+			"function $1($2){"
+				"$3"
+			"}"
+		],
+		"description": "Javascript Function"
+	},
+	"JSConsole": {
+		"prefix": "cs",
+		"body": [
+			"console.log($1)"
+		],
+		"description": "Javascript Console.log"
+	},
+	"JSUsestrict": {
+		"prefix": "us",
+		"body": [
+			"'use strict';"
+			""
+		],
+		"description": "Javascript use strict"
+	},
+	"NDexports": {
+		"prefix": "mex",
+		"body": [
+			"module.exports = $1"
+		],
+		"description": "Node module exports"
+	},
+	"NDrequire": {
+		"prefix": "rq",
+		"body": [
+			"require('$1');"
+		],
+		"description": "Node require modules"
+	}
+
+	
+}
