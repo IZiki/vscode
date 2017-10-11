@@ -19,14 +19,6 @@
         "when": "editorFocus"
     },
     {
-        "key": "alt+oem_3",
-        "command": "workbench.action.terminal.toggleTerminal"
-    },
-    {
-        "key": "ctrl+oem_3",
-        "command": "-workbench.action.terminal.toggleTerminal"
-    },
-    {
         "key": "alt+s",
         "command": "editor.action.deleteLines",
         "when": "editorTextFocus && !editorReadonly"
@@ -49,5 +41,43 @@
     {
         "key": "f12",
         "command": "workbench.action.toggleDevTools"
+    },
+    {
+        "key": "alt+oem_3",
+        "command": "workbench.action.debug.stop",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "shift+f5",
+        "command": "-workbench.action.debug.stop",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "alt+a",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "f5",
+        "command": "workbench.action.debug.start",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.start",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "alt+oem_3",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+oem_3",
+        "command": "-workbench.action.terminal.toggleTerminal"
     }
 ]
