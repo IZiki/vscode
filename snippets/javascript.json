@@ -42,7 +42,17 @@
 			"require('$1');"
 		],
 		"description": "Node require modules"
+	},
+	"region": {
+		"prefix": "zd",
+		"body": [
+			"//region"
+			"$1"
+			"//endregion"
+		],
+		"description": "fold region"
 	}
+	
 
 	
 }
