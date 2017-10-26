@@ -4,5 +4,6 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "git.enableSmartCommit": true,
     "files.autoSave": "afterDelay",
-    "editor.fontSize": 18
+    "editor.fontSize": 18,
+    "workbench.iconTheme": "material-icon-theme"
 }
