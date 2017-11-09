@@ -17,7 +17,7 @@
     "CSSBG": {
         "prefix": "bg",
         "body": [
-            "background:url('@{$1}x.png') no-repeat 0 0;"
+            "background:url('@{url}x.png') no-repeat 0 0;"
         ],
         "description": ""
     },
