@@ -30,7 +30,7 @@
 		"description": "Javascript use strict"
 	},
 	"NDexports": {
-		"prefix": "mex",
+		"prefix": "ex",
 		"body": [                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    `
 			"module.exports = $1"
 		],
@@ -43,6 +43,29 @@
 		],
 		"description": "Node require modules"
 	},
+	"JQclear": {
+		"prefix": "jqclear",
+		"body": [
+			"jQuery.noConflict();"
+		],
+		"description": ""
+	},
+	"JQ": {
+		"prefix": "jqready",
+		"body": [
+			"jQuery(function($){"
+			"	$1"
+			"});"
+		],
+		"description": ""
+	},
+	"JQselect": {
+		"prefix": "jq",
+		"body": [
+			"$('$1')$2"
+		],
+		"description": ""
+	},
 	"region": {
 		"prefix": "zd",
 		"body": [
@@ -52,7 +75,4 @@
 		],
 		"description": "fold region"
 	}
-	
-
-	
 }

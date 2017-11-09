@@ -62,5 +62,12 @@
             "}"
         ],
         "description": ""
+    },
+    "silky-bg": {
+        "prefix": "locbg",
+        "body": [
+            "background:url('@{__img}$1.png') no-repeat 0 0;"
+        ],
+        "description": ""
     }
 }
