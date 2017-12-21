@@ -14,6 +14,17 @@
 		],
 		"description": "Javascript Function"
 	},
+	"JSIIFE": {
+		"prefix": "iife",
+		"body": [
+			"(() => {"
+			"  $1"
+			"})();"
+		],
+		"description": "Javascript IIFE"
+	},
+
+	
 	"JSConsole": {
 		"prefix": "cs",
 		"body": [
