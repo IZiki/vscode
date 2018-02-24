@@ -6,5 +6,9 @@
     "files.autoSave": "afterDelay",
     "editor.fontSize": 18,
     "workbench.iconTheme": "material-icon-theme",
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "files.associations": {
+        "*.ftl": "html"
+    },
+    "team.showWelcomeMessage": false
 }
