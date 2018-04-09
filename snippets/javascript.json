@@ -31,7 +31,7 @@
 	},
 	"NDexports": {
 		"prefix": "ex",
-		"body": [                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    `
+		"body": [
 			"module.exports = $1"
 		],
 		"description": "Node module exports"
@@ -50,7 +50,7 @@
 		],
 		"description": ""
 	},
-	"JQ": {
+	"JQready": {
 		"prefix": "jqready",
 		"body": [
 			"jQuery(function($){"
@@ -63,6 +63,22 @@
 		"prefix": "jq",
 		"body": [
 			"$('$1')$2"
+		],
+		"description": ""
+	},
+	"JQajax": {
+		"prefix": "jqajax",
+		"body": [
+			"$.ajax({"
+			"	url:$1,"
+			"	data:{'$2':$3},"
+			"	success:function (data){"
+			"	$4"
+			"	},"
+			"	error:function (){"
+			"	$5"
+			"	}"
+			"})"
 		],
 		"description": ""
 	},

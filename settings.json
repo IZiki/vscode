@@ -1,9 +1,12 @@
 {
-    "workbench.colorTheme": "Monokai",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "editor.multiCursorModifier": "ctrlCmd",
     "git.enableSmartCommit": true,
     "files.autoSave": "afterDelay",
     "editor.fontSize": 18,
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Monokai",
+    "team.showWelcomeMessage": false,
+    "material-icon-theme.showUpdateMessage": false
 }

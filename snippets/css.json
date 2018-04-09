@@ -62,5 +62,14 @@
             "}"
         ],
         "description": ""
+    },
+    "KEYFRAMES": {
+        "prefix": "media",
+        "body": [
+            "@media screen and (max-width:1200px){"
+            "   $1"
+            "}"
+        ],
+        "description": ""
     }
 }
