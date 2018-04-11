@@ -9,4 +9,8 @@
     "workbench.colorTheme": "Monokai",
     "team.showWelcomeMessage": false,
     "material-icon-theme.showUpdateMessage": false
+    "files.associations": {
+        "*.ftl": "html"
+    },
+    "team.showWelcomeMessage": false
 }
