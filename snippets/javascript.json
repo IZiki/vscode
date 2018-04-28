@@ -79,25 +79,40 @@
 		"prefix": "jqajax",
 		"body": [
 			"$.ajax({"
+			"	async:true,"
 			"	url:$1,"
+			"	type:'GET',"
 			"	data:{'$2':$3},"
+			"	dataType:'jsonp',"
 			"	success:function (data){"
-			"	$4"
+			"		$4"
 			"	},"
 			"	error:function (){"
-			"	$5"
+			"		$5"
 			"	}"
 			"})"
 		],
 		"description": ""
 	},
-	"region": {
-		"prefix": "zd",
+	"JQplugin": {
+		"prefix": "jqplugin",
 		"body": [
-			"//region"
-			"$1"
-			"//endregion"
+			"$.fn.extend({"
+				"'foo':function(arg){"
+					"$1"
+					"return this;"	//this即为操作的jq对象
+				"}"
+			"})"
 		],
-		"description": "fold region"
+		"description": ""
+	},
+	"rqjs": {
+		"prefix": "rqjs",
+		"body": [
+			"requirejs(['lib/jquery'], function(){"
+				"$1"
+			"});"
+		],
+		"description": "requirejs"
 	}
 }

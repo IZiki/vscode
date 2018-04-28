@@ -1,3 +1,12 @@
 {
+    "silky-repeat": {
+		"prefix": "silky-repeat",
+		"body": [
+			"{{#repeat $1}}"
+				"{{\$index}}"
+			"{{/repeat}}"
+		],
+		"description": "silky-repeat"
+	}
 }
 

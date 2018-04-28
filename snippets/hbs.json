@@ -1,5 +1,4 @@
 {
-
 	// Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and 
 	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
 	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
@@ -13,8 +12,8 @@
             "</code></pre>"
 		],
 		"description": ""
-    },
-    "nt-js": {
+	},
+	"nt-js": {
 		"prefix": "nt-js",
 		"body": [
 			"<pre><code data-language='javascript'>"
@@ -22,8 +21,8 @@
             "</code></pre>"
 		],
 		"description": ""
-    },
-    "nt-html": {
+	},
+	"nt-html": {
 		"prefix": "nt-html",
 		"body": [
 			"<pre><code data-language='html'>"
@@ -31,8 +30,8 @@
             "</code></pre>"
 		],
 		"description": ""
-    },
-    "nt-table": {
+	},
+	"nt-table": {
 		"prefix": "nt-table",
 		"body": [
 			"<table>"
@@ -47,8 +46,8 @@
             "</table>"
 		],
 		"description": ""
-    },
-    "nt-li": {
+	},
+	"nt-li": {
 		"prefix": "nt-li",
 		"body": [
 			"<li>"
@@ -59,12 +58,21 @@
             "</li>"
 		],
 		"description": ""
-    },
-    "silky-img": {
+	},
+	"silky-img": {
 		"prefix": "locimg",
 		"body": [
 			"<img src='{{global.__img}}test.png' alt=''>"
 		],
 		"description": ""
-    }
+    },
+    "silky-repeat": {
+		"prefix": "silky-repeat",
+		"body": [
+			"{{#repeat $1}}"
+				"{{\$index}}"
+			"{{/repeat}}"
+		],
+		"description": "silky-repeat"
+	}
 }

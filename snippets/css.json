@@ -14,21 +14,49 @@
             "description": "Log output to console"
         }
     */
-    "CSSBG": {
+    "bg": {
         "prefix": "bg",
         "body": [
             "background:url('@{url}x.png') no-repeat 0 0;"
         ],
         "description": ""
     },
-    "CSSBGC": {
+    "bgc": {
         "prefix": "bgc",
         "body": [
             "background-color:$1;"
         ],
         "description": ""
     },
-    "FONTFACE": {
+    "bgn": {
+        "prefix": "bgn",
+        "body": [
+            "background:none;"
+        ],
+        "description": ""
+    },
+    "bgi": {
+        "prefix": "bgi",
+        "body": [
+            "background-image:url('@{url}');"
+        ],
+        "description": ""
+    },
+    "bgs": {
+        "prefix": "bgs",
+        "body": [
+            "background-size:100% 100%;"
+        ],
+        "description": ""
+    },
+    "bbx": {
+        "prefix": "bbx",
+        "body": [
+            "box-sizing:border-box;"
+        ],
+        "description": ""
+    },
+    "fontface": {
         "prefix": "fontface",
         "body": [
             "@font-face{"
@@ -42,7 +70,7 @@
         ],
         "description": ""
     },
-    "ICONFONT": {
+    "iconfont": {
         "prefix": "iconfont",
         "body": [
             "font-family:'iconfont';"
@@ -63,12 +91,17 @@
         ],
         "description": ""
     },
-    "KEYFRAMES": {
+    "media": {
         "prefix": "media",
         "body": [
-            "@media screen and (max-width:1200px){"
-            "   $1"
-            "}"
+            "@media screen and (max-width:@rsw){$1}"
+        ],
+        "description": ""
+    },
+    "silky-bg": {
+        "prefix": "locbg",
+        "body": [
+            "background:url('@{__img}$1.png') no-repeat 0 0;"
         ],
         "description": ""
     }
