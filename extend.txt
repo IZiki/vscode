@@ -1,7 +1,0 @@
-css编译：Easy LESS
-浏览器打开：Open in Browser
-unicode编码解码：ascii-unicode-escape
-
-
-图标：Material Icon Theme
-配色：Monokai Pro
