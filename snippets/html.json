@@ -7,6 +7,13 @@
 			"{{/repeat}}"
 		],
 		"description": "silky-repeat"
+	},
+	"loadcss": {
+		"prefix": "loadcss",
+		"body": [
+			"<link rel=\"stylesheet\" href=\"../$1.css\" />"
+		],
+		"description": "link css"
 	}
 }
 
