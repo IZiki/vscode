@@ -30,6 +30,13 @@
 		],
 		"description": "Javascript Console.log"
 	},
+	"JSConsoleE": {
+		"prefix": "ce",
+		"body": [
+			"console.error($1)"
+		],
+		"description": "Javascript Console.log"
+	},
 	"JSUsestrict": {
 		"prefix": "us",
 		"body": [
@@ -85,10 +92,13 @@
 			"	data:{'$2':$3},"
 			"	dataType:'jsonp',"
 			"	success:function (data){"
-			"		$4"
+			"		if(data.result!=0){"
+			"			console.error('接口数据异常',data.msg)"
+			"			return"
+			"		}"
 			"	},"
 			"	error:function (){"
-			"		$5"
+			"		console.error('接口连接异常')"
 			"	}"
 			"})"
 		],
