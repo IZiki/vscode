@@ -60,5 +60,20 @@
 			"</li>"
 		],
 		"description": "notebook-li"
+	},
+	"nt-block": {
+		"prefix": "nt-b",
+		"body": [
+			"<div class=\"u-block\">"
+			"	<h3>Canvas<span>-</span></h3>"
+			"	<div class=\"u-list\">"
+			"		<h4>[<span>-</span>] 核心</h4>"
+			"		<ul>"
+			"			$1"
+			"		</ul>"
+			"	</div>"
+			"</div>"
+		],
+		"description": "notebook block"
 	}
 }
