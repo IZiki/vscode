@@ -31,7 +31,7 @@
 			"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\">"
 			"<meta name=\"format-detection\" content=\"telephone=no\" />"
 			"<link rel=\"stylesheet\" href=\"\"/>"
-			"<script type=\"text/javascript\" src=\"\"></script>"
+			"<script type=\"text/javascript\" src=\"http://libs.baidu.com/jquery/1.10.2/jquery.min.js\"></script>"
 			"<script data-main=\"../js/common\" src=\"../js/lib/require.js\"></script>"
 			"</head>"
 			"<body>"

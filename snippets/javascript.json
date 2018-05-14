@@ -3,7 +3,7 @@
 		"prefix": "fn",
 		"body": [
 			"function $1($2){"
-				"$3"
+			"	$3"
 			"}"
 		],
 		"description": "Javascript Function"
@@ -102,10 +102,10 @@
 		"prefix": "jqplugin",
 		"body": [
 			"$.fn.extend({"
-				"'foo':function(arg){"
-					"$1"
-					"return this;"	//this即为操作的jq对象
-				"}"
+			"	'foo':function(arg){"
+			"		$1"
+			"		return this;	//this即为操作的jq对象"	
+			"	}"
 			"})"
 		],
 		"description": ""
