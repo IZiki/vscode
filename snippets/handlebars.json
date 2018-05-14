@@ -1,4 +1,13 @@
 {
+	"silky-repeat": {
+		"prefix": "silky-repeat",
+		"body": [
+			"{{#repeat $1}}"
+				"{{\$index}}"
+			"{{/repeat}}"
+		],
+		"description": "silky-repeat"
+	},
 	"loadcss": {
 		"prefix": "loadcss",
 		"body": [
@@ -39,6 +48,17 @@
 			"</script>"
 		],
 		"description": "javascript template"
+	},
+	"nt-li": {
+		"prefix": "nt-li",
+		"body": [
+			"<li>"
+			"	$1<a href=\"\">$2</a>"
+			"	<span>"
+			"	$3"	
+			"	</span>"
+			"</li>"
+		],
+		"description": "notebook-li"
 	}
 }
-
