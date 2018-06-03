@@ -8,7 +8,8 @@
     "editor.wordWrap": "on",
     "workbench.colorTheme": "Monokai",
     "team.showWelcomeMessage": false,
-    "material-icon-theme.showUpdateMessage": false
+    "material-icon-theme.showUpdateMessage": false,
+    "prettier.tabWidth":4,
     "files.associations": {
         "*.ftl": "html"
     },

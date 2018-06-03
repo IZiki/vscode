@@ -8,14 +8,26 @@
 		],
 		"description": "Javascript Function"
 	},
-	"JSIIFE": {
-		"prefix": "iife",
+	"JSArrowFunction1": {
+		"prefix": "xb",
 		"body": [
-			"(() => {"
-			"  $1"
-			"})();"
+			"($1) => $2"
 		],
-		"description": "Javascript IIFE"
+		"description": "Javascript Arrow Function"
+	},
+	"JSArrowFunction2": {
+		"prefix": "xbb",
+		"body": [
+			"($1) => void $2"
+		],
+		"description": "Javascript Arrow Function"
+	},
+	"JSArrowFunction3": {
+		"prefix": "xbbb",
+		"body": [
+			"($1) => {$2}"
+		],
+		"description": "Javascript Arrow Function"
 	},
 	"JSConsole": {
 		"prefix": "cs",
@@ -35,7 +47,6 @@
 		"prefix": "us",
 		"body": [
 			"'use strict';"
-			""
 		],
 		"description": "Javascript use strict"
 	},

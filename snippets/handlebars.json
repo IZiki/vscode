@@ -55,7 +55,7 @@
 			"<li>"
 			"	$1<a href=\"\">$2</a>"
 			"	<span>"
-			"	$3"	
+			"		$3"	
 			"	</span>"
 			"</li>"
 		],
@@ -75,5 +75,39 @@
 			"</div>"
 		],
 		"description": "notebook block"
+	},
+	"nt-table": {
+		"prefix": "nt-table",
+		"body": [
+			"<table>"
+			"	<tr>"
+			"		<th></th>"
+			"		<th></th>"
+			"	</tr>"
+			"	<tr>"
+			"		<td></td>"
+			"		<td></td>"
+			"	</tr>"
+			"</table>"
+		],
+		"description": "notebook table"
+	},
+	"nt-table3": {
+		"prefix": "nt-table3",
+		"body": [
+			"<table>"
+			"	<tr>"
+			"		<th></th>"
+			"		<th></th>"
+			"		<th></th>"
+			"	</tr>"
+			"	<tr>"
+			"		<td></td>"
+			"		<td></td>"
+			"		<td></td>"
+			"	</tr>"
+			"</table>"
+		],
+		"description": "notebook table3"
 	}
 }
