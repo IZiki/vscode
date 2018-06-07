@@ -29,13 +29,6 @@
 		],
 		"description": "Javascript Console.log"
 	},
-	"JSUsestrict": {
-		"prefix": "us",
-		"body": [
-			"'use strict';"
-		],
-		"description": "Javascript use strict"
-	},
 	"NDrequire": {
 		"prefix": "rq",
 		"body": [
@@ -121,20 +114,4 @@
 		],
 		"description": ""
 	},
-	"rqjs": {
-		"prefix": "rqjs",
-		"body": [
-			"requirejs(['lib/jquery'], function(){"
-				"$1"
-			"});"
-		],
-		"description": "requirejs"
-	},
-	"gb": {
-		"prefix": "gb",
-		"body": [
-			"let root = typeof global !== 'undefined' ? global : window"
-		],
-		"description": ""
-	}
 }

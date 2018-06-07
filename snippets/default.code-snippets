@@ -1,0 +1,9 @@
+{
+	"bin": {
+        "prefix": "bin",
+        "body": [
+            "#!/usr/bin/env $1 node"
+        ],
+        "description": ""
+    }
+}

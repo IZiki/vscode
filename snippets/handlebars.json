@@ -1,17 +1,15 @@
 {
-	"silky-repeat": {
-		"prefix": "silky-repeat",
-		"body": [
-			"{{#repeat $1}}"
-				"{{\$index}}"
-			"{{/repeat}}"
-		],
-		"description": "silky-repeat"
-	},
 	"loadcss": {
 		"prefix": "loadcss",
 		"body": [
 			"<link rel=\"stylesheet\" href=\"../$1.css\" />"
+		],
+		"description": "link css"
+	},
+	"loadjs": {
+		"prefix": "loadjs",
+		"body": [
+			"<script src=\"$1\"></script>"
 		],
 		"description": "link css"
 	},
@@ -109,5 +107,14 @@
 			"</table>"
 		],
 		"description": "notebook table3"
-	}
+	},
+	"silky-repeat": {
+		"prefix": "silky-repeat",
+		"body": [
+			"{{#repeat $1}}"
+				"{{\$index}}"
+			"{{/repeat}}"
+		],
+		"description": "silky-repeat"
+	},
 }
