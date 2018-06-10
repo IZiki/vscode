@@ -43,16 +43,6 @@
         "command": "workbench.action.toggleDevTools"
     },
     {
-        "key": "alt+oem_3",
-        "command": "workbench.action.debug.stop",
-        "when": "inDebugMode"
-    },
-    {
-        "key": "shift+f5",
-        "command": "-workbench.action.debug.stop",
-        "when": "inDebugMode"
-    },
-    {
         "key": "alt+a",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorFocus"
@@ -81,11 +71,23 @@
         "command": "-workbench.action.terminal.toggleTerminal"
     },
     {
-        "key":"ctrl+f11",
-        "command":"extension.escape"
+        "key": "shift+tab",
+        "command": "editor.fold",
+        "when": "editorTextFocus"
     },
     {
-        "key":"ctrl+f12",
-        "command":"extension.unescape"
+        "key": "ctrl+shift+oem_4",
+        "command": "-editor.fold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+capslock",
+        "command": "editor.unfold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+oem_6",
+        "command": "-editor.unfold",
+        "when": "editorTextFocus"
     }
 ]

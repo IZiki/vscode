@@ -14,5 +14,6 @@
         "*.ftl": "html"
     },
     "team.showWelcomeMessage": false,
-    "editor.tabCompletion": true
+    "editor.tabCompletion": true,
+    "javascript.updateImportsOnFileMove.enabled": "always"
 }
