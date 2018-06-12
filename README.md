@@ -3,3 +3,5 @@ Path:
 
 Package:
 + prettier
++ material-icon-theme
+
