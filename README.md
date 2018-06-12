@@ -4,4 +4,4 @@ Path:
 Package:
 + prettier
 + material-icon-theme
-
++ TODO Highlight
