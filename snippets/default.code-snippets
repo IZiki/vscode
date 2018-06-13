@@ -2,7 +2,7 @@
 	"bin": {
         "prefix": "bin",
         "body": [
-            "#!/usr/bin/env $1 node"
+            "#!/usr/bin/env node$1"
         ],
         "description": ""
     }
