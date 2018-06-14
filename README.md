@@ -11,6 +11,7 @@ Package:
 + Visual Studio Team Services
 
 + ESLint
++ CSSLint
 + TODO Highlight
 + Document This
 + Easy LESS
