@@ -6,7 +6,7 @@
     "editor.fontSize": 18,
     "workbench.iconTheme": "material-icon-theme",
     "editor.wordWrap": "on",
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "Solarized Light",
     "team.showWelcomeMessage": false,
     "material-icon-theme.showUpdateMessage": false,
     "prettier.tabWidth":4,
