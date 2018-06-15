@@ -117,4 +117,13 @@
 		],
 		"description": "silky-repeat"
 	},
+	"hbs-each": {
+		"prefix": "each",
+		"body": [
+			"{{#each this}}"
+				"{{\$index}}"
+			"{{/each}}"
+		],
+		"description": ""
+	},
 }
