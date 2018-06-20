@@ -11,7 +11,7 @@
 	"JSArrowFunction3": {
 		"prefix": "fnn",
 		"body": [
-			"let $1 = ($2) => {$3}"
+			"($2) => {$3}"
 		],
 		"description": "Javascript Arrow Function"
 	},
@@ -80,13 +80,6 @@
 		],
 		"description": ""
 	},
-	"JQselect": {
-		"prefix": "$",
-		"body": [
-			"$('$1')$2"
-		],
-		"description": ""
-	},
 	"JQajax": {
 		"prefix": "jqajax",
 		"body": [
@@ -121,19 +114,51 @@
 		],
 		"description": ""
 	},
-	"rqjs": {
-		"prefix": "rqjs",
-		"body": [
-			"requirejs(['lib/jquery'], function(){"
-				"$1"
-			"});"
-		],
-		"description": "requirejs"
-	},
-	"gb": {
-		"prefix": "gb",
+	"root": {
+		"prefix": "root",
 		"body": [
 			"let root = typeof global !== 'undefined' ? global : window"
+		],
+		"description": ""
+	},
+	"desc": {
+		"prefix": "desc",
+		"body": [
+			"configurable:,"
+			"enumerable:,"
+			"value:,"
+			"writable:,"
+			"get:,"
+			"set:"
+		],
+		"description": ""
+	},
+	"class": {
+		"prefix": "cls",
+		"body": [
+			"class $1{"
+			"	constructor($2){"
+			"		this"
+			"	}"
+			"	get prop(){}"
+			"	foo(){}"
+			"	static fn(){}"
+			"}"
+		],
+		"description": ""
+	},
+	"subclass": {
+		"prefix": "subcls",
+		"body": [
+			"class $1 extends $2{"
+			"	constructor($2){"
+			"		super()"
+			"		this"
+			"	}"
+			"	get prop(){}"
+			"	foo(){super.foo}"
+			"	static fn(){super.fn}"
+			"}"
 		],
 		"description": ""
 	}

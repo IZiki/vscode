@@ -3,7 +3,7 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "git.enableSmartCommit": true,
     "files.autoSave": "afterDelay",
-    "editor.fontSize": 18,
+    "editor.fontSize": 20,
     "workbench.iconTheme": "material-icon-theme",
     "editor.wordWrap": "on",
     "workbench.colorTheme": "Monokai",
